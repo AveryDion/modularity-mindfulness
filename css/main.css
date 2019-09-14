@@ -1,3 +1,62 @@
 html {
+  font-family: "Noto Sans", sans-serif;
+  color: #000;
+}
+
+.japanese {
+  font-family: "Noto Sans Japanese", sans-serif;
+}
+
+.btn-ghost {
+  border-color: #005e76;
+  color: #005e76;
+}
+
+.btn-ghost:hover {
+  border-color: #0084a6;
+  color: #0084a6;
+  background-color: #8bc9d9;
+}
+
+hr {
+  border-top: 2px solid #e2e2e2;
+}
+
+nav a {
+  text-decoration: none;
+  border-bottom: 2px solid #8bc9d9;
+  color: #005e76;
+}
+
+nav a:hover {
+  border-color: #005e76;
+  color: #0084a6;
+}
+
+nav {
+  max-height: 20px;
+}
+
+.symbol {
+  padding: 0;
+}
+
+@media only screen and (min-width: 60em) {
+
+  .head {
+    max-height: 115px;
+  }
+
+}
+
+@media only screen and (min-width: 80em) {
+
+  .quote {
+    max-width: 50%;
+  }
+
+  .head {
+    max-height: 120px;
+  }
 
 }
